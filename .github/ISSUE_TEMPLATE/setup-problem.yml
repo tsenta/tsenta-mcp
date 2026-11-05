@@ -1,0 +1,30 @@
+name: Setup problem
+description: A step in this guide didn't work for your AI assistant.
+labels: [setup]
+body:
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options:
+        - Claude (web or desktop)
+        - Claude Code
+        - ChatGPT
+        - Cursor
+        - Codex
+        - OpenClaw
+        - VS Code
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Client version
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: The step you were on and the message you saw. Don't paste tokens, cookies or personal details.
+    validations:
+      required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Account, billing or application questions
+    url: https://help.tsenta.com/
+    about: Help articles, or email founders@tsenta.com about your account. Don't post personal details in a public issue.
+  - name: Security report
+    url: https://tsenta.com/bug-bounty
+    about: Report vulnerabilities privately, not as an issue.

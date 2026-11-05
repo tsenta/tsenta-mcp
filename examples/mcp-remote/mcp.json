@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tsenta": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://api.autojobs.me/api/v1/mcp"]
+    }
+  }
+}

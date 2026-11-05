@@ -1,0 +1,3 @@
+# Add to ~/.codex/config.toml, then run: codex mcp login tsenta
+[mcp_servers.tsenta]
+url = "https://api.autojobs.me/api/v1/mcp"

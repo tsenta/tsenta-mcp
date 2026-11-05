@@ -1,0 +1,11 @@
+# Only SKILL.md is published to ClawHub. Everything else in this repository stays out.
+README.md
+LICENSE
+SECURITY.md
+server.json
+.clawhubignore
+.gitignore
+docs/
+examples/
+scripts/
+.github/

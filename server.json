@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tsenta/tsenta",
+  "title": "Tsenta: AI job application agent",
+  "description": "Find jobs, tailor your resume to each role and apply on Workday, Greenhouse, Lever, Ashby and more.",
+  "version": "1.0.0",
+  "websiteUrl": "https://tsenta.com/mcp",
+  "repository": {
+    "url": "https://github.com/tsenta/tsenta-mcp",
+    "source": "github",
+    "id": "1446645168"
+  },
+  "icons": [
+    {
+      "src": "https://tsenta.com/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "500x500"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.autojobs.me/api/v1/mcp"
+    }
+  ]
+}
